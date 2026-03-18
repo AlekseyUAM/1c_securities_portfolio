@@ -53,7 +53,7 @@ docs/
 
 ### Архитектура разработки
 
-Разработка построена на основе фреймворка [1c-agent-based-dev-framework](https://github.com/1c-syntax/1c-agent-based-dev-framework), который использует:
+Разработка построена на основе фреймворка [1c-agent-based-dev-framework](https://github.com/SteelMorgan/1c-agent-based-dev-framework), который использует:
 
 - **Полный цикл разработки (Full-Cycle)** — детерминированный процесс с обязательным кросс-ревью на каждом этапе:
   - **Phase 0**: Explorer — анализ кодовой базы, построение графиков зависимостей
@@ -73,6 +73,10 @@ docs/
 
 - 1С:Предприятие 8.3.20+ (для работы HTTPS и JSONReader)
 - Доступ в интернет для загрузки данных из MOEX ISS API
+
+## Автор
+
+Алексей Юданов — [Telegram](https://t.me/aleksey_yudanov)
 
 ## Лицензия
 
