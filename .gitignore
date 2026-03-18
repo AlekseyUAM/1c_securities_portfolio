@@ -1,0 +1,9 @@
+/.claude
+/capabilities
+/configs
+/logs
+/tmp
+/tasks
+.1c-ai-agent-cli-session.json
+.mcp.json
+CLAUDE.md

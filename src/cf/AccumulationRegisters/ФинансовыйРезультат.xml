@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="76f6f0d9-8c2a-497c-bfba-17ea29ddf0a1">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ФинансовыйРезультат" category="Record">
+				<xr:TypeId>89169b8c-af7e-42f6-8c99-09952c3e29cb</xr:TypeId>
+				<xr:ValueId>4143f512-b141-4a7b-b3be-ac91a6b510a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ФинансовыйРезультат" category="Manager">
+				<xr:TypeId>3fc0e3bc-66b5-41cd-bbfd-22980302cdbe</xr:TypeId>
+				<xr:ValueId>f8fe92be-13d4-4053-a46a-54396ca22dd0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ФинансовыйРезультат" category="Selection">
+				<xr:TypeId>bbe5cf5a-aa57-449e-a22b-67009e6d145e</xr:TypeId>
+				<xr:ValueId>5ae79957-bff2-47b7-9e01-80a3a7553d8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ФинансовыйРезультат" category="List">
+				<xr:TypeId>8670d9e9-4434-4de2-87e2-ffe2b933bfb5</xr:TypeId>
+				<xr:ValueId>2295a79f-b76f-4b50-b0ee-597bad9a40f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ФинансовыйРезультат" category="RecordSet">
+				<xr:TypeId>42ffc558-a016-4ef1-841d-4da67bea002d</xr:TypeId>
+				<xr:ValueId>40545cd6-a90f-4585-91aa-6dbc52108488</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ФинансовыйРезультат" category="RecordKey">
+				<xr:TypeId>608ca16b-df8f-45f4-afcd-fa177f9fcbd9</xr:TypeId>
+				<xr:ValueId>3d8e61ff-2374-4cfa-8ec3-6c86e01d94a1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФинансовыйРезультат</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Финансовый результат</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultListForm/>
+			<AuxiliaryListForm/>
+			<StandardAttributes>
+				<xr:StandardAttribute name="Active">
+					<xr:Synonym/>
+					<xr:Comment/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="LineNumber">
+					<xr:Synonym/>
+					<xr:Comment/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Recorder">
+					<xr:Synonym/>
+					<xr:Comment/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Period">
+					<xr:Synonym/>
+					<xr:Comment/>
+				</xr:StandardAttribute>
+			</StandardAttributes>
+			<RegisterType>Turnovers</RegisterType>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="d7ee6469-8b21-44d6-9acf-b9a84d76d4a0">
+				<Properties>
+					<Name>ЦеннаяБумага</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ценная бумага</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЦенныеБумаги</v8:Type>
+					</Type>
+					<DenyIncompleteValues>true</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
+				</Properties>
+			</Dimension>
+			<Resource uuid="3fdce537-c4e2-4357-84f7-36c69a90de32">
+				<Properties>
+					<Name>Сумма</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>
