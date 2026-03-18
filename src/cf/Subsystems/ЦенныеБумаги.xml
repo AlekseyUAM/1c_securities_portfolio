@@ -22,6 +22,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ФинансовыйРезультат</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.СтоимостьЦБ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.КотировкаЦБ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПереоценкаЦБ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеНКД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПогашениеКупонов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

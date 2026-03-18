@@ -7132,10 +7132,12 @@
 		<Metadata name="Document.НазначениеОпросов.Form.ФормаСписка.Form" id="d7fb9441-1aef-4257-af3f-7f16340ac85e.0" configVersion="493a2d54b0770e449572952719066a7900000000"/>
 		<Metadata name="Document.НазначениеОпросов.Form.ФормаСписка.Help" id="d7fb9441-1aef-4257-af3f-7f16340ac85e.1" configVersion="521d1465ae45a14dae4f8251e79b598c00000000"/>
 		<Metadata name="Document.НазначениеОпросов.ManagerModule" id="3d315df6-e000-4cbd-810d-0b26c0d1bc54.2" configVersion="5705bbc74da71148906c4480ef168f0e00000000"/>
-		<Metadata name="Document.НачислениеНКД" id="b2c3d4e5-2222-4b6c-ad7e-8f90a1b2c3d4" configVersion="9c404903614e154a8cad4d95f7ac99df00000000">
+		<Metadata name="Document.НачислениеНКД" id="b2c3d4e5-2222-4b6c-ad7e-8f90a1b2c3d4" configVersion="45a0c905d282ea4d8fb3da2df8d42e2400000000">
 			<Metadata name="Document.НачислениеНКД.Attribute.ЦеннаяБумага" id="22222222-2222-4222-b222-222222222301"/>
 			<Metadata name="Document.НачислениеНКД.Attribute.НКД" id="22222222-2222-4222-b222-222222222302"/>
 		</Metadata>
+		<Metadata name="Document.НачислениеНКД.Form.ФормаДокумента" id="5ce8fc0c-2f15-4151-9421-710c139ae8f3" configVersion="6e577b95e3e87a4bbc0abfaeeb70137c00000000"/>
+		<Metadata name="Document.НачислениеНКД.Form.ФормаДокумента.Form" id="5ce8fc0c-2f15-4151-9421-710c139ae8f3.0" configVersion="1cb9f121d794b646bdcbc84b0861334300000000"/>
 		<Metadata name="Document.НачислениеНКД.ManagerModule" id="b2c3d4e5-2222-4b6c-ad7e-8f90a1b2c3d4.2" configVersion="456206b3283dd846b114dfda7a5ebff100000000"/>
 		<Metadata name="Document.НачислениеНКД.ObjectModule" id="b2c3d4e5-2222-4b6c-ad7e-8f90a1b2c3d4.0" configVersion="4a2d5fb33cf2cc418a9cd9cfe355d0f400000000"/>
 		<Metadata name="Document.ОтзывСогласияНаОбработкуПерсональныхДанных" id="7d5b2b73-27e6-4a61-9558-eb2410eb9f2f" configVersion="03c2df1f2653d14da992d344bb6510c600000000">
@@ -7162,10 +7164,12 @@
 		<Metadata name="Document.ПереоценкаЦБ" id="a1b2c3d4-1111-4a5b-9c6d-7e8f90a1b2c3" configVersion="19c130270123b14f99882b4af21df61f00000000"/>
 		<Metadata name="Document.ПереоценкаЦБ.ManagerModule" id="a1b2c3d4-1111-4a5b-9c6d-7e8f90a1b2c3.2" configVersion="d3e0d8cab6865c4fb713826da852112c00000000"/>
 		<Metadata name="Document.ПереоценкаЦБ.ObjectModule" id="a1b2c3d4-1111-4a5b-9c6d-7e8f90a1b2c3.0" configVersion="8048b19c1475664499705f98f16d3d2200000000"/>
-		<Metadata name="Document.ПогашениеКупонов" id="c3d4e5f6-3333-4c7d-be8f-90a1b2c3d4e5" configVersion="ab8c760bc90cbe47bb205d45c22b9b9000000000">
+		<Metadata name="Document.ПогашениеКупонов" id="c3d4e5f6-3333-4c7d-be8f-90a1b2c3d4e5" configVersion="a438cfc122a5b547a504066aef3b99dc00000000">
 			<Metadata name="Document.ПогашениеКупонов.Attribute.ЦеннаяБумага" id="33333333-3333-4333-b333-333333333401"/>
 			<Metadata name="Document.ПогашениеКупонов.Attribute.НКД" id="33333333-3333-4333-b333-333333333402"/>
 		</Metadata>
+		<Metadata name="Document.ПогашениеКупонов.Form.ФормаДокумента" id="2f74eace-f98e-4573-99ea-851a0dd546b9" configVersion="0a6182320abbe044a03dd30b73a167e200000000"/>
+		<Metadata name="Document.ПогашениеКупонов.Form.ФормаДокумента.Form" id="2f74eace-f98e-4573-99ea-851a0dd546b9.0" configVersion="eda5f09bd5e8e64aa9ef47c90b22f4cb00000000"/>
 		<Metadata name="Document.ПогашениеКупонов.ManagerModule" id="c3d4e5f6-3333-4c7d-be8f-90a1b2c3d4e5.2" configVersion="1dd87e36a7cd7c4fa08f58aa72f917d500000000"/>
 		<Metadata name="Document.ПогашениеКупонов.ObjectModule" id="c3d4e5f6-3333-4c7d-be8f-90a1b2c3d4e5.0" configVersion="0de4d64a2c55fc4a9ea785e7cd513ed300000000"/>
 		<Metadata name="Document.ПоступлениеВыбытиеЦБ" id="eebcbb5b-364a-4d5d-b8c0-164ebe1b956e" configVersion="c630789678d5d14bb175ac0c7712268100000000">
@@ -10720,8 +10724,8 @@
 		<Metadata name="Report.КонтрольРассылкиОтчетов.Template.ОсновнаяСхемаКомпоновкиДанных" id="b4fa35f9-cb7e-46a8-b32b-801d212c8fcf" configVersion="ddbd1d9e8520bc46af00befdedb6796c00000000"/>
 		<Metadata name="Report.КонтрольРассылкиОтчетов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="b4fa35f9-cb7e-46a8-b32b-801d212c8fcf.0" configVersion="104c5c9e37e1f8409f91d26c895dd61600000000"/>
 		<Metadata name="Report.КотировкаЦБ" id="ab23b1ef-96b1-492f-8ffa-1ac28eeb9e9c" configVersion="28c8e54383f9e243aee425f4ac6a3e5900000000"/>
-		<Metadata name="Report.КотировкаЦБ.Template.ОсновнаяСхемаКомпоновкиДанных" id="a199a5e9-4ed7-4c67-807e-06541d112ea5" configVersion="fe04f91e1be146469f49dfec8780c44800000000"/>
-		<Metadata name="Report.КотировкаЦБ.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a199a5e9-4ed7-4c67-807e-06541d112ea5.0" configVersion="629f6c3a68fb9d4da60151e64647006d00000000"/>
+		<Metadata name="Report.КотировкаЦБ.Template.ОсновнаяСхемаКомпоновкиДанных" id="a199a5e9-4ed7-4c67-807e-06541d112ea5" configVersion="e853fa0bc44e0f489b092a0cbb12719f00000000"/>
+		<Metadata name="Report.КотировкаЦБ.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a199a5e9-4ed7-4c67-807e-06541d112ea5.0" configVersion="02a67609962d844e96d1467134cff25600000000"/>
 		<Metadata name="Report.МестаИспользованияСсылок" id="c960082b-8c16-4d7b-b7fd-b1f2bfe07e0b" configVersion="d7d83f2e5ff1a54c9cd191477a9d08d000000000"/>
 		<Metadata name="Report.МестаИспользованияСсылок.Help" id="c960082b-8c16-4d7b-b7fd-b1f2bfe07e0b.1" configVersion="2a750e2bfca1b745a55004e97f3d191a00000000"/>
 		<Metadata name="Report.МестаИспользованияСсылок.ManagerModule" id="c960082b-8c16-4d7b-b7fd-b1f2bfe07e0b.2" configVersion="dc1cb494ee580b41bb520a47fcfc48b200000000"/>
@@ -11458,7 +11462,7 @@
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.ШаблоныСообщений" id="98b67b5a-3550-4a64-9e07-07fcc9154c73" configVersion="ea62f384a2a864438c1515a40e114eb500000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.ЭлектроннаяПодпись" id="ad7c6165-2e44-4808-a77a-526882cf5dea" configVersion="a19b982d04d85c48b525a54a9bdde0bd00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.ЭлектроннаяПодписьСервисаDSS" id="fd930b50-4ada-4e7f-8bfd-ed9a7c4e8964" configVersion="8c02b10e77cd08468cc2d4f376bed0ef00000000"/>
-		<Metadata name="Subsystem.ЦенныеБумаги" id="1bf97aef-58f0-4bab-b83d-752e46e6f346" configVersion="8ad9c5625b69e541a75bbf5572c3be6000000000"/>
+		<Metadata name="Subsystem.ЦенныеБумаги" id="1bf97aef-58f0-4bab-b83d-752e46e6f346" configVersion="501db5515d85ee4db245feb251d6135d00000000"/>
 		<Metadata name="Task.ЗадачаИсполнителя" id="3ad08f4a-6202-4099-b6cc-bc116e6731a0" configVersion="b815a7fb14dccc4eab836caf0daa5b6400000000">
 			<Metadata name="Task.ЗадачаИсполнителя.Attribute.РезультатВыполнения" id="02466dcf-02a1-4853-814f-a913a9baba45"/>
 			<Metadata name="Task.ЗадачаИсполнителя.AddressingAttribute.ДополнительныйОбъектАдресации" id="0408002c-9255-43a2-8022-82f02ee0e8f4"/>
